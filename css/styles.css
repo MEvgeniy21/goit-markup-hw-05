@@ -532,7 +532,7 @@ ul {
 }
 
 .client-list .item {
-  flex-basis: calc(100% / 6 - 30px - 2px);
+  flex-basis: calc(100% / 6 - 30px);
   margin-left: 30px;
   color: var(--icon-color);
   border: 1px solid var(--icon-color);
@@ -617,7 +617,7 @@ ul {
 }
 
 .portfolio-list .item {
-  flex-basis: calc(100% / 3 - 30px - 2px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
   border: 1px solid #eeeeee;
@@ -644,7 +644,7 @@ ul {
   position: absolute;
   left: 0;
   top: 0;
-  transform: translateY(100%);
+  transform: translateY(calc(100% + 1px));
   display: flex;
   justify-content: center;
   align-items: center;
